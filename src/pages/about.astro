@@ -5,18 +5,18 @@ import ContactCTA from '../components/ContactCTA.astro';
 import Hero from '../components/Hero.astro';
 ---
 
-<BaseLayout title="About | Jeanine White" description="About Jeanine White Lorem Ipsum">
+<BaseLayout title="About | Andrés Cañas" description="Learn more about Andrés Cañas and his professional journey.">
 	<div class="stack gap-20">
 		<main class="wrapper about">
 			<Hero
-				title="About"
-				tagline="Thanks for stopping by. Read below to learn more about myself and my background."
+				title="About Me"
+				tagline="Welcome! Here you can learn more about my background, experience, and skills."
 			>
 				<img
-					width="1553"
-					height="873"
-					src="/assets/at-work.jpg"
-					alt="Jeanine White at work with a colleague"
+					width="1500"
+					height="850"
+					src="/assets/logo.png"
+					alt="Andrés Cañas working on a project"
 				/>
 			</Hero>
 
@@ -24,35 +24,38 @@ import Hero from '../components/Hero.astro';
 				<h2 class="section-title">Background</h2>
 				<div class="content">
 					<p>
-						Lorem ipsum dolor sit amet, <a href="https://astro.build/">Astro</a> makes people happy.
-						Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Proin nibh nisl condimentum
-						id venenatis a condimentum vitae. Dapibus ultrices in iaculis nunc. Arcu odio ut sem nulla
-						pharetra diam sit amet. Diam quis enim lobortis scelerisque fermentum dui faucibus in ornare.
+						I am Andrés Cañas, a passionate developer with a strong focus on creating ERP, CRM, and web solutions. With over four enterprise-grade applications developed for businesses of various sizes, I thrive on delivering tailored solutions that enhance operational efficiency.
 					</p>
 					<p>
-						Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Eget gravida cum sociis
-						natoque penatibus. Cras fermentum odio eu feugiat pretium nibh. Proin nibh nisl
-						condimentum id venenatis. Porta nibh venenatis cras sed felis eget velit. Id diam vel
-						quam elementum pulvinar etiam non.
+						My journey started with a keen interest in solving complex problems through technology. Over the years, I have honed my skills in PHP, SQL, JavaScript, HTML, React, and Node.js, among others. I combine technical expertise with a strategic mindset to drive impactful results for my clients.
 					</p>
 					<p>
-						Ultrices tincidunt arcu non sodales neque sodales ut. Sed enim ut sem viverra aliquet
-						eget sit amet. Lacus luctus accumsan tortor posuere ac ut consequat semper viverra.
-						Viverra accumsan in nisl nisi scelerisque eu ultrices. In massa tempor nec feugiat nisl
-						pretium fusce.
+						When I’m not coding, I enjoy staying updated with the latest trends in technology, continuously expanding my knowledge, and refining my approach to building modern, scalable applications.
 					</p>
 				</div>
 			</section>
+
 			<section>
 				<h2 class="section-title">Education</h2>
 				<div class="content">
-					<p>Corporis voluptates tenetur laudantium.</p>
+					<ul>
+						<li>Data Analysis Certificate - Coursera</li>
+						<li>Web Development Bootcamp - Self-taught</li>
+						<li>Continuous learning through industry-related courses and hands-on experience</li>
+					</ul>
 				</div>
 			</section>
+
 			<section>
 				<h2 class="section-title">Skills</h2>
 				<div class="content">
-					<p>officia unde omnis</p>
+					<ul>
+						<li>Programming Languages: PHP, JavaScript, SQL, HTML, CSS</li>
+						<li>Frameworks and Libraries: React, Node.js, Bootstrap</li>
+						<li>Data Analysis and Reporting</li>
+						<li>ERP and CRM Development and Integration</li>
+						<li>Problem-Solving and Strategic Thinking</li>
+					</ul>
 				</div>
 			</section>
 		</main>
@@ -60,6 +63,7 @@ import Hero from '../components/Hero.astro';
 		<ContactCTA />
 	</div>
 </BaseLayout>
+
 
 <style>
 	.about {
