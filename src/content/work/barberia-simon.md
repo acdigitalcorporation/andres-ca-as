@@ -1,7 +1,7 @@
 ---
 title: Barbería Simón
 publishDate: 2024-01-10 00:00:00
-img: /assets/projects/barberia-simon.jpg
+img: /assets/barberia-simon.webp
 img_alt: The homepage of Barbería Simón featuring a modern design and booking system
 description: |
   Barbería Simón is a modern, intuitive website built for a local barber shop. 
