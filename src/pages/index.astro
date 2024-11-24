@@ -25,37 +25,42 @@ const projects = (await getCollection('work'))
 <BaseLayout>
 	<div class="stack gap-20 lg:gap-48">
 		<div class="wrapper stack gap-8 lg:gap-20">
+			<!-- Sección principal de presentación -->
 			<header class="hero">
 				<Hero
-					title="Hello, I'm Andrés Cañas"
-					tagline="I am a Developer specializing in ERP, CRM, and Web Solutions based at AC DIGITAL CORP."
+					title="Hola, soy Andrés Cañas"
+					tagline="Soy un desarrollador especializado en ERP, CRM y soluciones web."
 					align="start"
 				>
+					<!-- Roles destacados -->
 					<div class="roles">
-						<Pill><Icon icon="code" size="1.33em" /> ERP Developer</Pill>
-						<Pill><Icon icon="code" size="1.33em" /> CRM Specialist</Pill>
-						<Pill><Icon icon="code" size="1.33em" /> Web Developer</Pill>
+						<Pill><Icon icon="code" size="1.33em" /> Desarrollador ERP</Pill>
+						<Pill><Icon icon="code" size="1.33em" /> Especialista CRM</Pill>
+						<Pill><Icon icon="code" size="1.33em" /> Desarrollador Web</Pill>
 					</div>
 				</Hero>
-
+	
+				<!-- Imagen descriptiva -->
 				<img
-					alt="Andrés Cañas working on his computer"
+					alt="Andrés Cañas trabajando en su computadora"
 					width="480"
 					height="620"
 					src="/assets/portrait.jpg"
 				/>
 			</header>
-
+	
+			<!-- Sección de habilidades -->
 			<Skills />
 		</div>
-
+	
 		<main class="wrapper stack gap-20 lg:gap-48">
+			<!-- Sección de trabajos destacados -->
 			<section class="section with-background with-cta">
 				<header class="section-header stack gap-2 lg:gap-4">
-					<h3>Selected Work</h3>
-					<p>Explore some of the ERP applications and websites I've developed for various businesses.</p>
+					<h3>Proyectos Destacados</h3>
+					<p>Descubre algunas aplicaciones ERP y sitios web que he desarrollado para diferentes empresas.</p>
 				</header>
-
+	
 				<div class="gallery">
 					<Grid variant="offset">
 						{
@@ -67,23 +72,25 @@ const projects = (await getCollection('work'))
 						}
 					</Grid>
 				</div>
-
+	
+				<!-- Llamado a la acción -->
 				<div class="cta">
 					<CallToAction href="/work/">
-						View All
+						Ver Todos
 						<Icon icon="arrow-right" size="1.2em" />
 					</CallToAction>
 				</div>
 			</section>
-
+	
+			<!-- Sección de menciones 
 			<section class="section with-background bg-variant">
 				<header class="section-header stack gap-2 lg:gap-4">
-					<h3>Mentions</h3>
+					<h3>Menciones</h3>
 					<p>
-						I have been recognized for my work in developing robust ERP and CRM solutions. Here are some platforms that have featured my projects.
+						He sido reconocido por mi trabajo desarrollando soluciones ERP y CRM robustas. Estas son algunas plataformas que han destacado mis proyectos.
 					</p>
 				</header>
-
+	
 				<div class="gallery">
 					<Grid variant="small">
 						{
@@ -95,8 +102,9 @@ const projects = (await getCollection('work'))
 						}
 					</Grid>
 				</div>
-			</section>
+			</section>-->
 		</main>
+	
 
 		<ContactCTA />
 	</div>

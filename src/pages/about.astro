@@ -5,64 +5,69 @@ import ContactCTA from '../components/ContactCTA.astro';
 import Hero from '../components/Hero.astro';
 ---
 
-<BaseLayout title="About | Andrés Cañas" description="Learn more about Andrés Cañas and his professional journey.">
+<BaseLayout title="Acerca de | Andrés Cañas" description="Conoce más sobre Andrés Cañas y su trayectoria profesional.">
 	<div class="stack gap-20">
 		<main class="wrapper about">
 			<Hero
-				title="About Me"
-				tagline="Welcome! Here you can learn more about my background, experience, and skills."
+				title="Sobre Mí"
+				tagline="¡Bienvenido! Aquí puedes conocer más sobre mi trayectoria, experiencia y habilidades."
 			>
 				<img
 					width="1500"
 					height="850"
 					src="/assets/logo.png"
-					alt="Andrés Cañas working on a project"
+					alt="Andrés Cañas trabajando en un proyecto"
 				/>
 			</Hero>
 
+			<!-- Sección: Trayectoria -->
 			<section>
-				<h2 class="section-title">Background</h2>
+				<h2 class="section-title">Trayectoria</h2>
 				<div class="content">
 					<p>
-						I am Andrés Cañas, a passionate developer with a strong focus on creating ERP, CRM, and web solutions. With over four enterprise-grade applications developed for businesses of various sizes, I thrive on delivering tailored solutions that enhance operational efficiency.
+						Soy Andrés Cañas, un desarrollador apasionado con un enfoque sólido en la creación de soluciones ERP, CRM y web. Con más de cuatro aplicaciones empresariales desarrolladas para negocios de diferentes tamaños, me especializo en ofrecer soluciones personalizadas que mejoran la eficiencia operativa.
 					</p>
 					<p>
-						My journey started with a keen interest in solving complex problems through technology. Over the years, I have honed my skills in PHP, SQL, JavaScript, HTML, React, and Node.js, among others. I combine technical expertise with a strategic mindset to drive impactful results for my clients.
+						Mi trayectoria comenzó con un interés marcado en resolver problemas complejos a través de la tecnología. A lo largo de los años, he perfeccionado mis habilidades en PHP, SQL, JavaScript, HTML, React y Node.js, entre otros. Combino mi experiencia técnica con una mentalidad estratégica para lograr resultados impactantes para mis clientes.
 					</p>
 					<p>
-						When I’m not coding, I enjoy staying updated with the latest trends in technology, continuously expanding my knowledge, and refining my approach to building modern, scalable applications.
+						Cuando no estoy programando, disfruto manteniéndome al día con las últimas tendencias tecnológicas, ampliando continuamente mi conocimiento y mejorando mi enfoque en la construcción de aplicaciones modernas y escalables.
 					</p>
 				</div>
 			</section>
 
+			<!-- Sección: Educación -->
 			<section>
-				<h2 class="section-title">Education</h2>
+				<h2 class="section-title">Educación</h2>
 				<div class="content">
 					<ul>
-						<li>Data Analysis Certificate - Coursera</li>
-						<li>Web Development Bootcamp - Self-taught</li>
-						<li>Continuous learning through industry-related courses and hands-on experience</li>
+						<li>Certificación en Análisis de Datos - Coursera</li>
+						<li>Bootcamp de Desarrollo Web - Autodidacta</li>
+						<li>Aprendizaje continuo mediante cursos especializados y experiencia práctica</li>
 					</ul>
 				</div>
 			</section>
 
+			<!-- Sección: Habilidades -->
 			<section>
-				<h2 class="section-title">Skills</h2>
+				<h2 class="section-title">Habilidades</h2>
 				<div class="content">
 					<ul>
-						<li>Programming Languages: PHP, JavaScript, SQL, HTML, CSS</li>
-						<li>Frameworks and Libraries: React, Node.js, Bootstrap</li>
-						<li>Data Analysis and Reporting</li>
-						<li>ERP and CRM Development and Integration</li>
-						<li>Problem-Solving and Strategic Thinking</li>
+						<li>Lenguajes de Programación: PHP, JavaScript, SQL, HTML, CSS</li>
+						<li>Frameworks y Librerías: React, Node.js, Bootstrap</li>
+						<li>Análisis de Datos y Generación de Informes</li>
+						<li>Desarrollo e Integración de ERP y CRM</li>
+						<li>Resolución de Problemas y Pensamiento Estratégico</li>
 					</ul>
 				</div>
 			</section>
 		</main>
 
+		<!-- Llamado a la acción de contacto -->
 		<ContactCTA />
 	</div>
 </BaseLayout>
+
 
 
 <style>

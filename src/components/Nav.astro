@@ -5,9 +5,9 @@ import type { iconPaths } from './IconPaths';
 
 /** Main menu items */
 const textLinks: { label: string; href: string }[] = [
-	{ label: 'Home', href: '/' },
-	{ label: 'Work', href: '/work/' },
-	{ label: 'About', href: '/about/' },
+	{ label: 'Inicio', href: '/' },
+	{ label: 'Trabajos', href: '/work/' },
+	{ label: 'Acerca de mí', href: '/about/' },
 ];
 
 /** Icon links to social media — edit these with links to your profiles! */
@@ -19,20 +19,24 @@ const iconLinks: { label: string; href: string; icon: keyof typeof iconPaths }[]
 ---
 
 <nav>
+	<!-- Encabezado del menú -->
 	<div class="menu-header">
 		<a href="/" class="site-title">
 			<Icon icon="terminal-window" color="var(--accent-regular)" size="1.6em" gradient />
-			Andrés Cañas 
+			Andrés Cañas
 		</a>
 		<menu-button>
 			<template>
+				<!-- Botón del menú -->
 				<button class="menu-button" aria-expanded="false">
-					<span class="sr-only">Menu</span>
+					<span class="sr-only">Menú</span>
 					<Icon icon="list" />
 				</button>
 			</template>
 		</menu-button>
 	</div>
+
+	<!-- Contenido alternativo para navegadores sin JavaScript -->
 	<noscript>
 		<ul class="nav-items">
 			{
@@ -57,7 +61,9 @@ const iconLinks: { label: string; href: string; icon: keyof typeof iconPaths }[]
 			}
 		</ul>
 	</noscript>
+
 	<noscript>
+		<!-- Pie de menú para navegadores sin JavaScript -->
 		<div class="menu-footer">
 			<div class="socials">
 				{
@@ -71,6 +77,8 @@ const iconLinks: { label: string; href: string; icon: keyof typeof iconPaths }[]
 			</div>
 		</div>
 	</noscript>
+
+	<!-- Contenido del menú (oculto por defecto) -->
 	<div id="menu-content" hidden>
 		<ul class="nav-items">
 			{
@@ -94,6 +102,8 @@ const iconLinks: { label: string; href: string; icon: keyof typeof iconPaths }[]
 				))
 			}
 		</ul>
+
+		<!-- Pie de menú con enlaces sociales y cambio de tema -->
 		<div class="menu-footer">
 			<div class="socials">
 				{
@@ -112,6 +122,7 @@ const iconLinks: { label: string; href: string; icon: keyof typeof iconPaths }[]
 		</div>
 	</div>
 </nav>
+
 
 <script>
 	class MenuButton extends HTMLElement {
