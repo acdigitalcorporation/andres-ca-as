@@ -2,26 +2,26 @@
 title: Barbería Simón
 publishDate: 2024-01-10 00:00:00
 img: /assets/barberia-simon.webp
-img_alt: The homepage of Barbería Simón featuring a modern design and booking system
+img_alt: La página principal de Barbería Simón con un diseño moderno y sistema de reservas
 description: |
-  Barbería Simón is a modern, intuitive website built for a local barber shop. 
-  It includes an appointment booking system, a floating WhatsApp button, 
-  and a sleek design tailored for 2025 trends.
+  Barbería Simón es un sitio web moderno e intuitivo creado para una barbería local. 
+  Incluye un sistema de reservas, un botón flotante de WhatsApp 
+  y un diseño elegante adaptado a las tendencias de 2025.
 tags:
-  - Web Design
+  - Diseño Web
   - Astro
-  - Small Business
+  - Negocios Locales
   - Frontend
 link: https://barberia-simon.vercel.app/
 ---
 
-Barbería Simón is a cutting-edge project designed to meet the needs of a thriving local barber shop. The highlights of this project include:
+**Barbería Simón** es un proyecto innovador diseñado para satisfacer las necesidades de una barbería local en crecimiento. Las características destacadas de este proyecto incluyen:
 
-- **Appointment Booking System:** Enables customers to schedule appointments effortlessly.
-- **Floating WhatsApp Button:** Provides instant communication with clients for a seamless experience.
-- **Responsive and Modern Design:** Ensures usability across all devices, with a sleek and intuitive interface.
-- **Built with Modern Tech:** Utilizes Astro, React, Vue, and CSS to deliver a high-performance website.
+- **Sistema de Reservas de Citas:** Permite a los clientes programar sus citas de manera sencilla y eficiente.
+- **Botón Flotante de WhatsApp:** Facilita la comunicación instantánea con los clientes para una experiencia fluida.
+- **Diseño Moderno y Responsivo:** Garantiza la usabilidad en todos los dispositivos, con una interfaz elegante e intuitiva.
+- **Desarrollado con Tecnología Moderna:** Utiliza Astro, React, Vue y CSS para ofrecer un sitio web de alto rendimiento.
 
-This project showcases my ability to create practical, attractive, and effective web solutions for small businesses.
+Este proyecto destaca mi capacidad para crear soluciones web prácticas, atractivas y efectivas para negocios pequeños.
 
-[Check out the live demo here.](https://barberia-simon.vercel.app/)
+[Consulta la demo en vivo aquí.](https://barberia-simon.vercel.app/)
