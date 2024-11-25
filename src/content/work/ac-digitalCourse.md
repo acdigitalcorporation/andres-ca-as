@@ -1,7 +1,7 @@
 ---
 title: AC Digital Courses
 publishDate: 2024-01-10 00:00:00
-img: /assets/ac-digital-courses.webp
+img: /assets/ac-digital-courses.jpg
 img_alt: Página principal de AC Digital Courses con un diseño profesional y plataforma de aprendizaje
 description: |
   AC Digital Courses es una plataforma educativa moderna e intuitiva, diseñada para ofrecer cursos en línea y presenciales. 
