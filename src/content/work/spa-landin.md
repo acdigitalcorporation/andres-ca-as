@@ -1,7 +1,7 @@
 ---
 title: AC Spa & Wellness
 publishDate: 2024-01-15 00:00:00
-img: /assets/ac-spa-wellness.jpg
+img: /assets/ac-spa.png
 img_alt: Página principal de AC Spa & Wellness con un diseño elegante y relajante
 description: |
   AC Spa & Wellness es un espacio digital creado para conectar a los clientes con servicios de belleza y bienestar. Ofrece reservaciones online, galería interactiva, contacto directo por WhatsApp y más, todo diseñado para ofrecer una experiencia de spa relajante y moderna.
